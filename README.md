@@ -2,7 +2,7 @@
 
 Este é um projeto desenvolvido para a disciplina Lógica de Programação II do meu curso na faculdade, onde o objetivo é adivinhar as letras de uma palavra oculta. O projeto consiste em um site simples com dois campos de entrada: um para inputar a palavra a ser descoberta e outro para fazer tentativas de adivinhar as letras dessa palavra. O jogador tem até 5 tentativas de erro para adivinhar as letras corretamente.
 
-![[Imagem do Site](src/img/adivinhaPalavraLayout.png)
+![Imagem do Site](src/img/adivinhaPalavraLayout.png)
 
 ## Funcionalidades
 

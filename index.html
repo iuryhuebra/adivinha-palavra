@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Jogo de Adivinhação de Letras</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <div>
+          <h1>Adivinhe a Palavra</h1>
+          <label for="palavraSecreta">
+            Digite a palavra secreta:
+          </label>
+          <input type="text" id="inputPalavraSecreta" />
+          <input type="button" id="btnDefinir" value="Definir Palavra" />
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <label for="letra">
+            Digite uma letra e veja se ela está na palavra secreta!
+            <p id="pPalavraSecreta"></p>
+          </label>
+          <input type="text" id="inputLetra"/>
+          <input type="button" id="btnAdivinhar" value="Adivinhar" />
+          <p id="pTentativas">Tentativas: 10</p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

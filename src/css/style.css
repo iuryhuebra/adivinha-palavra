@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #E4EBEF;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: block;
+    text-align: center;
+    padding: 2rem 5rem;
+    border-radius: .5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #172748;
+}
+
+label {
+    display: block;
+    margin: 1rem;
+}
+
+input {
+    display: block;
+    margin: .75rem auto;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+}
+
+input[type='button'] {
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+    height: 2.5rem;
+    width: 9rem;
+}
+
+#btnDefinir {
+    background-color: rgb(0, 174, 0);
+}
+
+#btnDefinir:hover {
+    background-color: rgb(0, 151, 0);
+}
+
+#btnAdivinhar {
+    background-color: rgb(0, 115, 255);
+}
+
+#btnAdivinhar:hover {
+    background-color: rgb(0, 92, 204)
+}
+
+#pPalavraSecreta {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: bolder;
+}
+
